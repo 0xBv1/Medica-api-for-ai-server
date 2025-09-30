@@ -1,0 +1,204 @@
+{
+    "info": {
+        "name": "Laravel Sanctum API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Register",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Test User\",\n    \"email\": \"test@example.com\",\n    \"password\": \"password123\",\n    \"password_confirmation\": \"password123\"\n}"
+                },
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/register",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "register"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Login",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"email\": \"test@example.com\",\n    \"password\": \"password123\"\n}"
+                },
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/login",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "login"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Forgot Password",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"email\": \"test@example.com\"\n}"
+                },
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/forgot-password",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "forgot-password"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Reset Password",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"email\": \"test@example.com\",\n    \"token\": \"RESET_TOKEN\",\n    \"password\": \"newpassword\",\n    \"password_confirmation\": \"newpassword\"\n}"
+                },
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/reset-password",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "reset-password"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Profile",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/profile",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "profile"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Logout",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/logout",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "logout"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Verify Email",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/email/verify/{id}/{hash}",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "email",
+                        "verify",
+                        "{id}",
+                        "{hash}"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Resend Verification Email",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/email/verification-notification",
+                    "host": [
+                        "https://lightsteelblue-bee-202070.hostingersite.com"
+                    ],
+                    "path": [
+                        "api",
+                        "email",
+                        "verification-notification"
+                    ]
+                }
+            }
+        }
+    ]
+}

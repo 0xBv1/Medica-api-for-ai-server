@@ -1,0 +1,68 @@
+{
+  "info": {
+    "name": "Medica API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/register",
+          "protocol": "https",
+          "host": [
+            "lightsteelblue-bee-202070",
+            "hostingersite",
+            "com"
+          ],
+          "path": [
+            "api",
+            "register"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\": \"Test User\", \"email\": \"test@example.com\", \"password\": \"password123\", \"password_confirmation\": \"password123\"}"
+        }
+      }
+    },
+    {
+      "name": "Profile",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{access_token}}"
+          }
+        ],
+        "url": {
+          "raw": "https://lightsteelblue-bee-202070.hostingersite.com/api/profile",
+          "protocol": "https",
+          "host": [
+            "lightsteelblue-bee-202070",
+            "hostingersite",
+            "com"
+          ],
+          "path": [
+            "api",
+            "profile"
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "access_token",
+      "value": "1|vDYYMkzWL7dmzXfSHNsloEtjGGhmmcMu3EB0wBcm5841bb23"
+    }
+  ]
+}

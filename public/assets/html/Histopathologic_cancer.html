@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Medica</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "../css/main.css" />
+        <link rel = "stylesheet" href = "../css/article.css" />
+        <link rel="stylesheet" href="../css/utilities.css">
+        <!-- normalize.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- icon -->
+        <link rel="icon" type="image/x-icon" href="../images/Medica_icon_1.png">
+    </head>
+    <body>
+        <div class="page-wrapper">
+                <!-- Start of header -->
+                <!-- <header class = "header" style="min-height: 15vh;"> هنا الإرتفاع ده 21 وهمى -->
+                <header class = "header">
+                    <nav class = "navbar" style="padding: 35px 0 35px 0;"> <!-- راجع الإستايل ده علشان مشكلة الإنتقال الجامد بين الصفحات-->
+                        <div class="container">
+                            <div class="navbar-content d-flex justify-content-between align-items-center">
+                                <div class = "brand-and-toggler d-flex align-items-center justify-content-between">
+                                    <a href = "../../" class = "navbar-brand d-flex align-items-center">
+                                        <span><img src = "../images/Medica_icon_2.png" alt = ""  style="width: 45px;"></span>
+                                        <span class="brand-text fw-7">Medica</span>
+                                    </a>
+                                    <button type = "button" class = "d-none navbar-show-btn">
+                                        <i class = "fas fa-bars"></i>
+                                    </button>
+                                </div>
+
+                                <div class = "navbar-box">
+                                    <button type = "button" class = "navbar-hide-btn">
+                                        <i class = "fas fa-times"></i>
+                                    </button>
+
+                                    <ul class = "navbar-nav d-flex align-items-center">
+                                        <li class = "nav-item">
+                                            <a href = "../../" class = "nav-link text-white text-nowrap">Home</a>
+                                        </li>
+                                        <li class = "nav-item">
+                                            <a href = "../../#Cancerous_diseases" class = "nav-link text-white nav-active text-nowrap">Cancers</a>
+                                        </li>
+                                        <li class = "nav-item">
+                                            <a href = "../../Check.php" class = "nav-link text-white  text-nowrap">Check</a>
+                                        </li>
+                                        <li class = "nav-item">
+                                            <a href = "../../#mobile_app" class = "nav-link text-white text-nowrap">Mobile App</a>
+                                        </li>
+                                        <li class = "nav-item">
+                                            <a href = "../../#about_section" class = "nav-link text-white text-nowrap">About us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                     <!-- Start Chatboot -->
+                     <div class="pulse_Animate chatbox__button">
+                        <div class="pulse">
+                            <img src="../images/chatbot.png" alt=""> <!--style="float: left; position:fixed;"-->
+                            <span style="--i:0;"></span>
+                        </div>
+                    </div>
+                    <!-- End Chatboot -->
+                     
+                </header>
+                <!-- End of header -->
+
+<!--####################################################################################################-->
+<!-- aout chatbot -->
+                <div class="container">
+                    <div class="chatbox">
+                        <div class="chatbox__support">
+
+                            <div class="chatbox__header">
+
+                                <div class="chatbox__image--header">
+                                    <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-5--v1.png" alt="image">
+                                </div>
+
+                                <div class="chatbox__content--header">
+                                    <h4 class="chatbox__heading--header">Medica Chat</h4>
+                                    <p class="chatbox__description--header">Hi. This is Medica chatbot. How can I help you?</p>
+                                </div>
+
+                            </div>
+
+                            <div class="chatbox__messages">
+                                <div></div>
+                            </div>
+
+                            <div class="chatbox__footer">
+                                <input type="text" placeholder="Write a message...">
+                                <button class="chatbox__send--footer send__button">Send</button>
+                            </div>
+
+                        </div>
+
+                        <!-- <div class="chatbox__button">
+                            <button><img src="{{ asset('assets/images/chatbot.png') }}
+" style="width: 45px;" /></button>
+                        </div> -->
+
+                    </div>
+                </div>
+
+<!-- End Chatboot -->
+<!--####################################################################################################-->
+                
+            <div class="content_box">
+                
+                <!--   Up to scroll -->
+                <span class="up"><i class="fas fa-arrow-up"></i></span>
+
+                <h1 class="banner-title">Histopathologic Cancer</h1>
+                <img src="../images/article_images/histopathologic_cancer_1.png" alt=""><br><br>
+                <p>
+                    <h2>Overview</h2><br>
+                    Soft tissue sarcoma is a rare type of cancer that begins as a growth of cells in the body's soft tissues. Soft tissues connect, support, and surround the body's organs. Soft tissues include muscles, fat, blood vessels, nerves, tendons, and the linings of joints.<br><br>
+
+                    Soft tissue sarcomas can occur anywhere in the body. They most often occur in the arms, legs, and abdomen.<br><br>
+
+                    There are more than 50 types of soft tissue sarcomas. Some types occur more often in children, and others occur more often in adults. These cancers can be difficult to diagnose because they can be mistaken for other types of tumors.<br><br>
+
+                    Soft tissue sarcomas are usually treated with surgery. Other treatments may include radiation therapy and chemotherapy. Treatment depends on the size, type, location, and speed of growth of the cancer.<br><br>
+
+                    <img src="../images/article_images/histopathologic_cancer_2.png" alt=""><br><br>
+                    
+                    <h2>Types</h2><br>
+                    •	Synovial sarcoma<br>
+                    •	Rhabdomyosarcoma<br>
+                    •	Dermatofibrosarcoma protuberans<br>
+                    •	Myxofibrosarcoma<br>
+                    •	Angiosarcoma<br>
+                    •	Epithelioid sarcoma<br>
+                    •	Undifferentiated pleomorphic sarcoma<br>
+                    •	Malignant peripheral nerve sheath tumors<br>
+                    •	Liposarcoma<br>
+                    •	Kaposi's sarcoma<br>
+                    •	Leiomyoma<br>
+                    •	Gastrointestinal stromal tumor (GIST)<br>
+                    •	Solitary fibrous tumor<br><br>
+
+                    <h2>Symptoms</h2><br>
+                    A soft tissue sarcoma may not cause any symptoms at first. But as the cancer grows, it may cause:<br><br>
+
+                    •	A noticeable lump or swelling<br>
+                    •	Pain if the growth presses on nerves or muscles<br><br>
+
+                    <h2>Causes</h2><br>
+                    The cause of most types of soft tissue sarcoma is not known.<br><br>
+
+                    Soft tissue sarcoma begins when changes occur in the DNA of a connective tissue cell. A cell's DNA carries instructions that tell a cell to do what it does. These changes cause the connective tissue cell to become cancerous. These changes tell the cancer cells to grow and make more cells. Normal cells die as part of their normal cycle, but cancer cells keep growing because they don't have instructions to stop.<br><br>
+
+                    The cancer cells accumulate to form a tumor. In some types of soft tissue sarcoma, the cancer cells stay in one place. They continue to make more cells and cause the tumor to grow larger. In other types of soft tissue sarcoma, the cancer cells may break away from the main tumor and spread to other parts of the body.<br><br>
+
+                    The type of cell with the DNA changes determines the type of soft tissue sarcoma. For example, angiosarcoma begins in cells in the lining of blood vessels, while liposarcoma begins in fat cells.<br><br>
+
+                    <h3>Types of soft tissue sarcoma include:</h3><br>
+
+                    •	Angiosarcoma<br>
+                    •	Dermatofibrosarcoma protuberans<br>
+                    •	Epithelioid sarcoma<br>
+                    •	Gastrointestinal stromal tumor<br>
+                    •	Kaposi's sarcoma<br>
+                    •	Leiomyosarcoma<br>
+                    •	Liposarcoma<br>
+                    •	Malignant peripheral nerve sheath tumor<br>
+                    •	Myxofibrosarcoma<br>
+                    •	Rhabdomyosarcoma<br>
+                    •	Solitary fibrous tumor<br>
+                    •	Synovial sarcoma<br>
+                    •	Undifferentiated pleomorphic sarcoma<br><br>
+
+                    <h2>Risk factors</h2><br>
+
+                    Factors that may increase your risk of developing sarcoma include:<br><br>
+
+                    <h3>• Inherited syndromes</h3><br> 
+                    The risk of developing soft tissue sarcoma can run in families. Genetic syndromes that increase your risk include hereditary retinoblastoma, Li-Fraumeni syndrome, familial adenomatous polyposis, neurofibromatosis, tuberous sclerosis, and Werner syndrome.<br><br>
+
+                    <h3>• Exposure to chemicals</h3><br> 
+                    Exposure to certain chemicals may increase your risk of developing soft tissue sarcoma. These chemicals include herbicides, arsenic, and dioxin.<br><br>
+
+                    <h3>• Exposure to radiation</h3><br>
+                    Radiation therapy for other types of cancer can increase your risk of developing soft tissue sarcoma.<br><br>
+
+                    <h2>When to see a doctor?</h2><br>
+                    Make an appointment with your health care team if you have any symptoms that worry you.<br><br>
+
+
+                </p> 
+            </div>
+            <!-- Start of footer -->
+            <footer class = "footer">
+                    <div class = "container">
+                        <div class = "footer-content">
+                            <div class = "footer-list d-grid text-white">
+                                <div class = "footer-item">
+                                    <a href = "../../" class = "navbar-brand d-flex align-items-center">
+                                        <span><img src = "../images/Medica_icon_2.png" alt = ""  style="width: 45px;"></span>
+                                        <span class = "brand-text fw-7">Medica</span>
+                                    </a>
+                                    <p class = "text-white">Medica provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                                    <p class = "text-white copyright-text">&copy; Medica PTY LTD 2024. All rights reserved.</p>
+                                </div>
+
+                                <div class = "footer-item">
+                                    <h3 class = "footer-item-title">Company</h3>
+                                    <ul class = "footer-links">
+                                        <li><a href = "../../#about_section">About</a></li>
+                                        <li><a href = "#">Find a doctor</a></li>
+                                        <li><a href = "../../#mobile_app">mobile app</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class = "footer-item">
+                                    <h3 class = "footer-item-title">Region</h3>
+                                    <ul class = "footer-links">
+                                        <li><a href = "#">Germany</a></li>
+                                        <li><a href = "#">USA</a></li>
+                                        <li><a href = "#">Hongkong</a></li>
+                                        <li><a href = "#">Canada</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class = "footer-item">
+                                    <h3 class = "footer-item-title">Help</h3>
+                                    <ul class = "footer-links">
+                                        <li><a href = "#">Help center</a></li>
+                                        <li><a href = "#">Contact support</a></li>
+                                        <li><a href = "#">Instructions</a></li>
+                                        <li><a href = "#">How it works</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "footer-element-1">
+                        <img src = "../images/element-img-4.png" alt = "">
+                    </div>
+                    <div class = "footer-element-2">
+                        <img src = "../images/element-img-5.png" alt = "">
+                    </div>
+            </footer>
+                <!-- End of footer -->
+
+                <script src="../js/scroll.js"></script>
+                <!-- chatbot js -->
+                <script src="../js/chatbot.js"></script>
+        </div>
+    </body>
+</html>

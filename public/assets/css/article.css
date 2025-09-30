@@ -1,0 +1,18 @@
+
+.header{
+    min-height: 15vh;
+}
+.content_box{
+    margin:8% 20% 0 20%
+}
+
+img{
+    margin: auto;
+}
+.content_box{
+    font-family: mayo-sans,sans-serif;
+}
+strong{
+    font-size: clamp(15px, calc(18.66666667px + .37037037vw), 19px);
+    font-weight: 600;
+}

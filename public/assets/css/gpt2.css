@@ -1,0 +1,342 @@
+/* #option-selector{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+} */
+/* .option-content {
+    margin-top: 20px;
+} */
+
+/* button {
+    padding: 10px 20px;
+    background-color:#458ff6;
+    background-color:#f2f2f2;
+    color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+} */
+
+/* button:hover {
+    background-color: #458ff6;
+    color:white;
+} */
+
+.upload-container {
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    width: 400px;
+    /* height: 167px; */
+    /* text-align: center; */
+    border-radius: 5px;
+    box-shadow: 7px 7px 12px rgb(0 0 0 / 21%);
+    margin: auto;
+    padding: 30px;
+}
+
+.drop-area {
+    width: 380px;
+    height: 120px;
+    /* border: 2px dashed #ccc; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #C2F1C8;
+}
+
+/* #image-display1 img, #image-display2 img, #image-display3 img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 20px;
+} */
+
+/* 4,5,6 */
+/* General Style for Disease Symptoms Selection */
+.disease-symptoms-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Heading Styling for Symptoms Form */
+.disease-symptoms-container h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Symptom Option Styling */
+.symptom-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.symptom-option:hover {
+    background-color: #eef7f7;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.symptom-option label {
+    font-size: 18px;
+    color: #555;
+    margin-right: 15px;
+    flex: 1;
+}
+
+.symptom-option input[type="radio"] {
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+/* Alignment of "Yes" and "No" buttons */
+.symptom-option div {
+    display: flex;
+    align-items: center;
+}
+
+.symptom-option div input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Symptom Submit Button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 220px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    .disease-symptoms-container {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .symptom-option {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .symptom-option div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+}
+
+/******* Option 7 style *******/
+
+/* General Layout for Option 7 */
+#option7-content {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Title Styling */
+/* h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+} */
+
+/* Container for Upload or Symptoms Choices */
+#option7-content > p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Upload Photo Section */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* .upload-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+} */
+
+/* #drop-area7 {
+    border: 2px dashed #4CAF50;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+} */
+
+/* #drop-area7:hover {
+    background-color: #f1f1f1;
+} */
+
+#image-display7 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Disease Symptoms Section */
+#disease-symptoms7 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Symptom Options */
+.symptom-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+.symptom-option label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #555;
+    flex: 1;
+}
+
+/* .symptom-option input[type="radio"] {
+    margin-right: 10px;
+} */
+
+/* Aligning the "Yes" and "No" radio buttons to the same level */
+.symptom-option div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.symptom-option div input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #458ff6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+/* button[type="submit"]:hover {
+    background-color: #45a049;
+} */
+
+
+.symptom-option input[type=radio]{
+    cursor:pointer;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #option7-content {
+        margin: 10px;
+    }
+
+    .upload-container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    #drop-area7 {
+        padding: 20px;
+    }
+
+    #disease-symptoms7 {
+        padding: 15px;
+    }
+
+    .symptom-option {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .symptom-option div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.read-button {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 1%;
+    width: 10%;
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+.read-button:hover {
+    background-color: #458ff6;
+}
+.audio-player {
+    width: 102%;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(255, 28, 28, 0.1);
+  }
